@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gradini, fructe, legume, pomusoare, condimente, fasole, faina, bacanie, ciuperci, legume, salate, sucuri, apa, muraturi, boboase, chisinau, moldova, filiolizate">
+    <meta name="description" content="Gradini fructe & legume">
+    <meta name="author" content="Purice Mihai, Stologan Iulian">
+    <title>Gradini fructe & legume</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="icon" href="../Imagini/icon.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+    <header class="header">
+        <div class="container header__container">
+            <a href="../index.html" class="header__logo">
+                <img src="../Imagini/logo-tr.png" alt="Gradini fructe & legume" class="header__logo_img">
+            </a>
+            <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+            <nav class="navbar">
+                <ul class="navbar__list" id="side-menu">
+                    <li class="navbar__item"><a href="../index.html" class="navbar__word">HOME</a></li>
+                    <li class="navbar__item"><a href="../compartimente/produse.html" class="navbar__word">PRODUSE</a></li>
+                    <li class="navbar__item"><a href="../compartimente/deprenoi.html" class="navbar__word">DESPRE NOI</a></li>
+                    <li class="navbar__item"><a href="../compartimente/galerie.html" class="navbar__word">GALERIE</a></li>
+                    <li class="navbar__item"><a href="../compartimente/contacte.html" class="navbar__word">CONTACTE</a></li>
+                </ul>
+            </nav>
+            <!-- Cart-Icon -->
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <!-- Cart -->
+               <div class="cart">
+                   <h2 class="cart-title">Coș</h2>
+                   <!-- Content -->
+                   <div class="border"></div>
+                   <div class="cart-content">
+   
+                   </div>
+                   <div class="border"></div>
+                   <!-- Total -->
+                   <div class="total">
+                       <div class="total-products">
+                           Prețul produselor:
+                           <div class="total-price font">0L</div>
+                       </div>
+                       <div class="total-products">
+                           Prețul livrării:
+                           <div class="font">50L</div>
+                       </div>
+                       <div class="total-products">
+                           Total:
+                           <div class="total-price font">0L</div>
+                       </div>
+                   </div>
+                   <!-- Buy Button -->
+                   <div class="border"></div>
+                   <button type="button" class="btn-buy">Comandă</button>
+                   <!-- Cart Close -->
+                   <i class='bx bx-x' id="close-cart"></i>
+               </div>
+        </div>
+    </header>
+</br></br></br></br></br></br></br>
+<button onclick="topFunction()" id="myBtn" title="SUS">↑</button>
+    <div class="container">
+        <h2 class="page-title">CONTACTE</h2>
+    </div>
+    <section class="about-contacts">
+        <div class="container about__container">
+            <div>
+                <div class="about__item">
+                    <i class=" about__item-icon fas fa-shipping-fast"></i>
+                    Livrare: <a class="about__item-link" href="tel:069408888">+37369408888</a>
+                </div>
+                <div class="about__item">
+                    <i class=" about__item-icon fas fa-map-marked"></i>
+                    mun. Chișinău
+                </div>
+                <div class="about__item">
+                    <i class="about__item-icon fas fa-store"></i>
+                    str. Liviu Deleanu 14/B
+                </div>
+                <div class="program">
+                    <img src="../Imagini/program.jpg" class="programimg">
+                </div>
+            </div>
+            <div class="about__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d679.6722124333422!2d28.769551099999994!3d47.0463361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cbd7d4b766d75b%3A0xeabf671ebcfd42b2!2sGRADINI%20fructe%20%26%20legume!5e0!3m2!1sen!2s!4v1644013552891!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <div class="footer_bottom">
+        <p class="crp">© Copyrights 2022</p>
+   </div>
+    <script>
+        $(window).on('load',function(){
+    $(".loader").fadeOut(3000);
+});
+
+    </script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="https://kit.fontawesome.com/6343b3161b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </body>
+    </html>  

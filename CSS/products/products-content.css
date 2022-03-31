@@ -1,0 +1,281 @@
+.products{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    flex-wrap: wrap;
+    height: 250px;
+    display: flex;
+}
+.product-box{
+    display: grid;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    flex: 1 0 33%;
+}
+.responsive-products{
+    height: 100%;
+    padding-bottom: 25px;
+}
+.box{
+    padding-top:120px ;
+}
+.product-box .box{
+    padding: 20px 20px 3px 20px;
+    box-shadow: #ddd 0px 0px 10px 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.product-box .box img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+.product-box .box span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.product-box .box h2{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 27px;
+    color: green;
+}
+
+.product-box .box h4{
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 27px;
+    color: green;
+}
+.product-box .box p{
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+}
+.product-box-duo .box p{
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+}
+.product-box .box .price span{
+    color: black;
+}
+.product-box .box .fas{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 18px;
+    padding-left: 18px;    
+    border: lightgray solid 3px;
+    background-color: #78be21;
+    color: #fff;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+.product-box .box .fas:hover{
+        transition: 1s all;
+          opacity: .5;
+          border: #428713 solid 3px;
+          color: #fff;
+      }
+.product-box .box .reducere{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    background: #78BE21;
+    color: white;
+    padding: 4px 30px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+/*---------------------------------------------------------- solo---------------------------------------------------------*/
+.product-box-solo{
+    display: grid;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    flex: 1 0 100%;
+}
+.product-box-solo .box{
+    padding: 20px 20px 3px 20px;
+    box-shadow: #ddd 0px 0px 10px 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.product-box-solo .box img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+.product-box-solo .box span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.product-box-solo .box h2{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 27px;
+    color: green;
+}
+
+.product-box-solo .box .price span{
+    color: black;
+}
+.product-box-solo .box .fas{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 18px;
+    padding-left: 18px;    
+    border: lightgray solid 3px;
+    background-color: #78be21;
+    color: #fff;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+.product-box-solo .box .fas:hover{
+        transition: 1s all;
+          opacity: .5;
+          border: #428713 solid 3px;
+          color: #fff;
+      }
+.product-box-solo .box .reducere{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    background: #78BE21;
+    color: white;
+    padding: 4px 30px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+/*------------------------------------------ solo end -----------------------------------------------------------------------*/
+
+/*--------------------------------------------------- duo ------------------------------------------------------------------*/
+.product-box-duo{
+    display: grid;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    flex: 1 0 50%;
+}
+.product-box-duo .box{
+    padding: 20px 20px 3px 20px;
+    box-shadow: #ddd 0px 0px 10px 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.product-box-duo .box img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+.product-box-duo .box span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.product-box-duo .box h2{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 27px;
+    color: green;
+}
+
+.product-box-duo .box .price span{
+    color: black;
+}
+.product-box-duo .box .fas{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 18px;
+    padding-left: 18px;    
+    border: lightgray solid 3px;
+    background-color: #78be21;
+    color: #fff;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+.product-box-duo .box .fas:hover{
+        transition: 1s all;
+          opacity: .5;
+          border: #428713 solid 3px;
+          color: #fff;
+      }
+.product-box-duo .box .reducere{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    background: #78BE21;
+    color: white;
+    padding: 4px 30px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+/*------------------------------------------------ solo end ---------------------------------------*/
+.price{
+    margin-left: 25px;
+    
+}
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 100%;
+  }
+  
+  .page-link {
+    position: relative;
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    background-color: rgb(52, 54, 52);
+    border: 2px solid #dee2e6;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .page-link:hover {
+    z-index: 2;
+    color: black;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
+  .page-link:focus {
+    z-index: 3;
+    color: grey;
+    background-color: #e9ecef;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ddd;
+  }
+  .page-link {
+    padding: 0.375rem 0.75rem;
+  }
+  
+
+  

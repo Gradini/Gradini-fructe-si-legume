@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gradini, fructe, legume, pomusoare, condimente, fasole, faina, bacanie, ciuperci, legume, salate, sucuri, apa, muraturi, boboase, chisinau, moldova, filiolizate">
+    <meta name="description" content="Gradini fructe & legume">
+    <meta name="author" content="Purice Mihai">
+    <title>Gradini fructe & legume</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="icon" href="./Imagini/icon.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<div class="loader">
+    <div class="loader1 animate__animated animate__fadeInUp animate__delay-0s"><img src="./Imagini/logo-tr.png" /></div>
+    <h3 class="loader__text animate__animated animate__fadeInUp animate__delay-0s">WELCOME</h3>
+</div>
+    <header class="header">
+        <div class="container header__container">
+            <a href="./index.html" class="header__logo">
+                <img src="./Imagini/logo-tr.png" alt="Gradini fructe & legume" class="header__logo_img">
+            </a>
+                <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+            <nav class="navbar">
+                <ul class="navbar__list" id="side-menu">
+                    <li class="navbar__item"><a href="./index.html" class="navbar__word active">HOME</a></li>
+                    <li class="navbar__item"><a href="./compartimente/produse.html" class="navbar__word">PRODUSE</a></li>
+                    <li class="navbar__item"><a href="./compartimente/deprenoi.html" class="navbar__word">DESPRE NOI</a></li>
+                    <li class="navbar__item"><a href="./compartimente/galerie.html" class="navbar__word">GALERIE</a></li>
+                    <li class="navbar__item"><a href="./compartimente/contacte.html" class="navbar__word">CONTACTE</a></li>
+                </ul>
+            </nav>
+            <!-- Cart-Icon -->
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <!-- Cart -->
+               <div class="cart">
+                   <h2 class="cart-title">Coș</h2>
+                   <!-- Content -->
+                   <div class="border"></div>
+                   <div class="cart-content">
+   
+                   </div>
+                   <div class="border"></div>
+                   <!-- Total -->
+                   <div class="total">
+                       <div class="total-products">
+                           Prețul produselor:
+                           <div class="total-price-products font">0L</div>
+                       </div>
+                       <div class="total-products">
+                           Prețul livrării:
+                           <div class="font">50L</div>
+                       </div>
+                       <div class="total-products">
+                           Total:
+                           <div class="total-price font">0L</div>
+                       </div>
+                   </div>
+                   <!-- Buy Button -->
+                   <div class="border"></div>
+                   <button type="button" class="btn-buy">Comandă</button>
+                   <!-- Cart Close -->
+                   <i class='bx bx-x' id="close-cart"></i>
+               </div>
+        </div>
+    </header>
+</br></br></br></br></br></br></br>
+<button onclick="topFunction()" id="myBtn" title="SUS">↑</button>
+    <section class="main">
+        <img src="./Imagini/main.png" alt="" class="main-img">
+    </section>
+    <div id="about" class="about">
+          <div class="row1">
+              
+            <div class="colx12 collg6 colmd6 colsm12">
+              <div class="about-box">
+                <h2>Despre</h2>
+                <p>Afacerea noastra de familie reprezintă continuitate in genaratie, longevitate și statornicie, lucruri care se reflectă  în muncă pe care o facem acasă. 
+                    Din anul 2011 pina în prezent oferim pe piața autohtona  fructe și legume. Consumatorii se pot bucura de ardei dulce, varza, cartofi și capsuni care au un conținut bogat de vitamine, sunt proaspete și sunt crescute acasă, la ,,GRADINI fructe & Legume’’.</p>
+                <a href="./compartimente/deprenoi.html">Info</a>
+              </div>
+            </div>
+            <div class="colx12 collg6 colmd6 colsm12 padding_rl">
+              <div class="about-box_img">
+                <figure><img class="img-ab" src="./Imagini/about.png" alt="#" /></figure>
+              </div>
+            </div>
+          </div>
+        </div> 
+    </br>
+        <h2 class="page-title">PRODUCĂTORI AUTOHTONI</h2>
+    <section class="counter">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-bottom">
+                            <strong><img src="./Imagini/cereals.png" alt=""></strong>
+                            <span>Cereale</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-bottom">
+                            <strong><img src="./Imagini/pepper.png" alt=""></strong>
+                            <span class="span-counter">Ardei Dulce</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-bottom">
+                            <strong><img src="./Imagini/potato.png" alt=""></strong>
+                            <span class="span-counter">Cartofi</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-bottom">
+                            <strong><img src="./Imagini/strawberry.png" alt=""></strong>
+                            <span class="span-counter">Căpsuni</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item">
+                            <strong><img src="./Imagini/cabbage.png" alt=""></strong>
+                            <span class="span-counter">Varză</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="page-title">TOP VÂNZĂRI</h2>
+    <section class="products responsive-products" id="products">
+       <!-- Product 1-->
+    <div class="product-box">
+        <div class="box">
+            <img src="./Imagini/Legume-foto/1.jpg"  class="product-img" alt="">
+            <h2 class="product-title">Castraveţi<br></h2>
+            <h3 class="price">50 Lei<span>/kg</span></h3>
+            <i class='fas fa-cart-arrow-down add-cart'></i>
+            <span class="reducere">FRESH</span>
+        </div>
+    </div>
+        <!-- Product 2-->
+        <div class="product-box">
+            <div class="box">
+                <img src="./Imagini/Legume-foto/7.jpg" class="product-img" alt="">
+                <h2 class="product-title">cartofi spălați<br></h2>
+                <h3 class="price">15 Lei<span>/kg</span></h3>
+                <i class="fas fa-cart-arrow-down add-cart"></i>
+                <span class="reducere">FRESH</span>
+            </div>
+        </div>
+     <!-- Product 3-->
+     <div class="product-box">
+        <div class="box">
+            <img class="product-img" src="./Imagini//Fructesipomusoare-foto/108.png" alt="">
+            <h2 class="product-title">Hurma Kaki</h2>
+            <h3 class="price">55 Lei<span>/kg</span></h3>
+            <i class="fas fa-cart-arrow-down add-cart"></i>
+            <span class="reducere">FRESH</span>
+        </div>
+    </div>
+              <!-- Product 4-->
+              <div class="product-box">
+                <div class="box">
+                    <img class="product-img" src="./Imagini//Fructesipomusoare-foto/119.png" alt="">
+                    <h2 class="product-title">banane</h2>
+                    <h3 class="price">26 Lei<span>/kg</span></h3>
+                    <i class="fas fa-cart-arrow-down add-cart"></i>
+                    <span class="reducere">FRESH</span>
+                </div>
+            </div>
+              <!-- Product 5-->
+              <div class="product-box">
+                <div class="box">
+                    <img class="product-img" src="./Imagini/Fructeuscatenuciseminte-foto/154.jpg" alt="">
+                    <h2 class="product-title">mango</h2>
+                    <h3 class="price">40 Lei<span>/100g</span></h3>
+                    <i class="fas fa-cart-arrow-down add-cart"></i>
+                    <span class="reducere">FRESH</span>
+                </div>
+            </div>
+        <!-- Product 6-->
+        <div class="product-box">
+            <div class="box">
+                <img class="product-img" src="./Imagini/Verdeturisisalate-foto/82.png" alt="">
+                <h2 class="product-title">misticanza</h2>
+                <h3 class="price">25 Lei<span>/100g</span></h3>
+                <i class="fas fa-cart-arrow-down add-cart"></i>
+                <span class="reducere">FRESH</span>
+            </div>
+        </div>  
+
+    </section>
+    
+    <h2 class="page-title">CONTACTE</h2>
+    <footer class="footer-box">
+        
+           <div class="row grid">
+              
+              <div class="col-lg-4 col-md6">
+                 <div class="full footer_blog f_icon_1">
+                     <p>Adresa<br><small> mun. Chisinau,<br>str. Liviu Deleanu 14/B</small></p>
+                 </div>
+              </div>
+
+              <div class="col-lg-4 col-md6">
+                 <div class="full footer_blog f_icon_2">
+                    <p>Contacte<br><small>+37369408888<br>Luni - Sâmbată<br>09:00 - 20:00</br>Duminică<br>09:00 - 17:00</small></p>
+                 </div>
+              </div>
+              <div class="col-lg-4 col-md6">
+                <div class="full footer_blog f_icon_3">
+                    <p>Email<br><small>gradini.md@gmail.com</small></p>
+                </div>
+             </div>
+
+
+              <div class="col-lg-4 col-md-6">
+                 <div class="full footer_blog_last">
+                     <p>Social media</p>
+                     <p>
+                       <ul>
+                          <li><a target="_blank" href="https://www.facebook.com/Gradini-fructe-legume-108038358084483/?ref=page_internal"><i class="fa fa-facebook-f"></i></a></li>
+                          <li><a target="_blank" href="https://www.instagram.com/gradini.md/?fbclid=IwAR3rGc45pOBl1tKeUSL6FQh32pQEE4RNoGkS_CqVNVavA5rtGVflAz3J1mY"><i class="fa fa-instagram"></i></a></li>
+                          <li><a target="_blank" href="http://gradini.md/"><i class="fa fa-briefcase"></i></a></li>
+                       </ul>
+                     </p>
+                 </div>
+              </div>
+          
+           </div>
+        </div>
+     </footer>
+     <div class="disclaimer" onclick="button_onclick()" id="btn">
+        <p class="disclaimer-text">
+            Folosim cookie-uri pe site-urile noastre web pentru a îți oferi cel mai bun serviciu posibil, pentru a asigura funcționarea optimă a site-urilor web, pentru gestionarea preferințelor, măsurarea activității pe mai multe dispozitive și analiza căutării, precum și pentru afișarea și analiza conținutului personalizat și a publicității. Prin apăsarea butonului „OK”, acceptați să fie utilizate toate cooki-urile de pe site-ul Gradini fructe & legume. 
+        </p>
+        <button id="btn" class="button button-black btn"><span>OK</span></button>
+    </div>
+     <div class="footer_bottom">
+         <p class="crp">© Copyrights 2022</p>
+    </div>
+    <script src="./js/scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://kit.fontawesome.com/6343b3161b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gradini, fructe, legume, pomusoare, condimente, fasole, faina, bacanie, ciuperci, legume, salate, sucuri, apa, muraturi, boboase, chisinau, moldova, filiolizate">
+    <meta name="description" content="Gradini fructe & legume">
+    <meta name="author" content="Purice Mihai, Stologan Iulian">
+    <title>Gradini fructe & legume</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="../Imagini/icon.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" media="all">
+</head>
+    <header class="header">
+        <div class="container header__container">
+            <a href="../index.html" class="header__logo">
+                <img src="../Imagini/logo-tr.png" alt="Gradini fructe & legume" class="header__logo_img">
+            </a>
+            <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+            <nav class="navbar">
+                <ul class="navbar__list" id="side-menu">
+                    <li class="navbar__item"><a href="../index.html" class="navbar__word">HOME</a></li>
+                    <li class="navbar__item"><a href="../compartimente/produse.html" class="navbar__word">PRODUSE</a></li>
+                    <li class="navbar__item"><a href="../compartimente/deprenoi.html" class="navbar__word">DESPRE NOI</a></li>
+                    <li class="navbar__item"><a href="../compartimente/galerie.html" class="navbar__word">GALERIE</a></li>
+                    <li class="navbar__item"><a href="../compartimente/contacte.html" class="navbar__word">CONTACTE</a></li>
+                </ul>
+            </nav>
+             <!-- Cart-Icon -->
+           <i class='bx bx-cart' id="cart-icon"></i>
+           <!-- Cart -->
+              <div class="cart">
+                  <h2 class="cart-title">Coș</h2>
+                  <!-- Content -->
+                  <div class="border"></div>
+                  <div class="cart-content">
+  
+                  </div>
+                  <div class="border"></div>
+                  <!-- Total -->
+                  <div class="total">
+                      <div class="total-products">
+                          Prețul produselor:
+                          <div class="total-price font">0L</div>
+                      </div>
+                      <div class="total-products">
+                          Prețul livrării:
+                          <div class="font">50L</div>
+                      </div>
+                      <div class="total-products">
+                          Total:
+                          <div class="total-price font">0L</div>
+                      </div>
+                  </div>
+                  <!-- Buy Button -->
+                  <div class="border"></div>
+                  <button type="button" class="btn-buy">Comandă</button>
+                  <!-- Cart Close -->
+                  <i class='bx bx-x' id="close-cart"></i>
+              </div>
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+    <button onclick="topFunction()" id="myBtn" title="SUS">↑</button>
+    <h2 class="page-title">DESPRE NOI</h2>
+
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>AM ÎNCEPUT...</h1>
+            <p class="text-despre2">
+                Afacerea noastră de familie reprezintă continuitate în genarație, longevitate și statornicie, lucruri care se reflectă direct în muncă pe care o facem. 
+ În anul 2011 a fost fondată compania  SRL ,,Fruct-AgroPrut,, 
+Afacerea noastră se afla  aici acasă pe malul râului Prut în raionul Leova, satul Tochile-Răducani. Unde împreună cu familia am continuat și dezvoltat agricultura. Compania noastră la moment se împarte în două ramuri, cerealieră, care de fapt este și cea de bază și cultivarea legumelor și  fructelor în câmp deschis.
+  În ramura cerealieră se include cultivarea porumbului, floarea soarelui, grâului, orezului și răpiței. 
+ Din anul 2011 pâna în prezent oferim pe piața autohtona  fructe și legume de calitate. Produsele noastre crescute cu multa grija și atenție sunt pe rafturile rețelelor de magazine din țară. Consumatorii se pot bucura de ardei dulce, varză, cartofi și capsuni care au un conținut bogat de vitamine, fiind proaspete și crescute acasă.
+În urma cererii de piata am creat propria marca ,,GRADINI’’ , care reprezintă produsele noastră, iar pentru a fi cit mai aproape de consumatori am deschis un magazin cu produse atohnone ,,GRADINI fructe & Legume’’.
+
+În urma cererii de piața am creat propria marcă ,,GRADINI’’ , care reprezintă produsele noastră, iar pentru a fi cât mai aproape de consumatori am deschis un magazin cu produse autohtone ,,GRADINI fructe & legume’’.
+            </p>
+            <div class="video-content-about">
+                <span><a class="about-span" href="https://youtu.be/IvwxXVMQJC4" type="video/mp4">VIDEO</a></span>
+                <span><a class="about-span" href="https://youtu.be/S76oJ0i7YTk" type="video/mp4">VIDEO</a></span>
+                <span><a class="about-span" href="https://youtu.be/lN4ABVD7bPo" type="video/mp4">VIDEO</a></span>
+            </div>
+        </div>
+        
+    </div>
+<br>
+    <div class="footer_bottom">
+        <p class="crp">© Copyrights 2022</p>
+   </div>
+   <script> 
+   AOS.init({
+       offset: 120,
+       once: true,
+   });
+</script>
+<script src="../js/scroll.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/cart.js"></script>
+<script src="https://kit.fontawesome.com/6343b3161b.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </body>
+    </html>  
