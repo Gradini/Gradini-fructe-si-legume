@@ -45,7 +45,7 @@
     }
 
     function buyButtonClicked() {
-      alert("Comanda a fost plasată");
+      alert("Pentru a prelua comanda sunați la numărul care va fi redirecționat automat după confirmare");
       var cartContent = document.getElementsByClassName("cart-content")[0];
       while (cartContent.hasChildNodes()) {
         cartContent.removeChild(cartContent.firstChild);
@@ -93,10 +93,10 @@
                             <div class="detail-box">
                                 <div class="cart-product-title">${title}</div>
                                 <div class="cart-price">${price}</div>
-                                <input type="number" value="0.1" class="cart-quantity">
+                                <input type="number" value="1" class="cart-quantity">
                             </div>
                             <!-- Remove Cart -->
-                            <i class='bx bxs-trash-alt cart-remove' ></i>`;
+                            <i class='bx bxs-trash-alt cart-remove'></i>`;
       cartShopBox.innerHTML = cartBoxContent;
       cartItems.append(cartShopBox);
       cartShopBox

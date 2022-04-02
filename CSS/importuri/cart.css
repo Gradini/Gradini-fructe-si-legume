@@ -12,6 +12,10 @@
   position: relative;
   margin-right: 30px;
 }
+.telefon-click{
+  color: white;
+  text-decoration: none;
+}
 .cart {
   top: 0;
   bottom:0;
