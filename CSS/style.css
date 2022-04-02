@@ -154,7 +154,7 @@ body {
     .navbar__list{
         flex-direction: column;
         display: none;
-        height: 500px;
+        height: 550px;
         width: 100%;
         position: fixed;
         background: #fff;
@@ -269,11 +269,12 @@ body {
         padding: 0px 5px 0px 5px;
     }
     .header__logo_img{
-        margin-left: 60px;
+        margin: 0 0 0 20px;
     }
     #cart-icon{
-        margin-right: 20px;
+        margin: 0 20px 0 0;
     }
+
     .disclaimer{
         display: none;
     }
@@ -411,11 +412,12 @@ body {
 }
 @media (max-width:591px){
     .header__logo_img{
-        margin-left: 30px;
+        margin: 0 0 0 10px;
     }
     #cart-icon{
-        margin-right: 0px;
+        margin: 0 10px 0 0;
     }
+
     .about__container{
         flex-direction: column;
     }
